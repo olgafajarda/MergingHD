@@ -11,7 +11,7 @@ This folder contains the data obtained after the pre-processing:
 
 # Folder script
 This folder contains the scripts used:
-- batchRemoval_ComBat: to remove the batch effect;
+- batchRemoval_ComBat: remove the batch effect;
 - featureSelection_limma: feature selection using limma package;
 - plot_mds_after: plot MDS using the expression after removing the batch effect;
 - plot_mds_before: plot MDS using the expression before removing the batch effect;
