@@ -1,6 +1,9 @@
 # MergingHD
 This repository contains the code used in the study presented in the paper "Merging Microarray Studies and Using Random Forest to Identify a Common Gene Expression Signature in Heart Disease" by Olga Fajarda, Sara Duarte-Pereira, Raquel M. Silva and José Luís Oliveira.
 
+# Folder Additional Files
+This folder contains the additional files of the paper.
+
 # Folder data
 This folder contains the data obtained after the pre-processing:
 - all_before_rem_batch: expressions obtained after the pre-processing;
