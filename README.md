@@ -3,11 +3,7 @@ This repository contains the code used in the study presented in the paper "Merg
 
 # Folder Additional Files
 This folder contains the additional files of the paper.
-<<<<<<< Updated upstream
 
-=======
- 
->>>>>>> Stashed changes
 # Folder data
 This folder contains the data obtained after the pre-processing:
 - all_before_rem_batch: expressions obtained after the pre-processing;
