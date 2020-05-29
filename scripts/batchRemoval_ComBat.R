@@ -35,11 +35,3 @@ cleandata<-ComBat(edata,batch,mod)
 # write data frame after removing batch to a text file
 write.csv(cleandata, file=paste(name_datasets,"_after_rem_batch.txt",sep=""),sep="\t")
 
-# write the different feasible sets
-for(p in c(1)){
-  for(i in c(15:26,28,30)){
-    n<-scan(paste("p",p,"fc",i,"_id.txt",sep=""),what = character())
-    index<-match(n,rownames(cleandata))
-    write.table(cleandata[index,],file=paste("p",p,"fc",i,".txt",sep=""),sep = "\t",row.names = FALSE,col.names = FALSE)
-  }
-}
