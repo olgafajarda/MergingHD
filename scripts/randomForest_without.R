@@ -25,7 +25,7 @@ for(name_data in name_datasets){
   results<-data.frame()
   for (v in 1:30){
     accuracy=0
-    # Read data of the trian set
+    # Read data of the trianing set
     nl<-scan(paste("HDtrain",v,"_samples.txt",sep=""),what=character())
     df<-read.table(paste("HDtrain",v,"_after.txt",sep=""),header=FALSE,sep="\t",dec=".",row.names=nl,col.names=nc)
     df<-as.data.frame(t(df))
